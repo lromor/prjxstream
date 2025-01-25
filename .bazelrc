@@ -10,6 +10,7 @@ build       --cxxopt=-Wno-unused-parameter --host_cxxopt=-Wno-unused-parameter
 
 # Avoid costly language features.
 build       --cxxopt=-fno-rtti             --host_cxxopt=-fno-rtti
+build       --cxxopt=-fno-exceptions             --host_cxxopt=-fno-exceptions
 
 # For 3rd party code: Disable warnings entirely.
 # They are not actionable and just create noise.
